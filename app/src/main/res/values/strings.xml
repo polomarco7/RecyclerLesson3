@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lesson3Recycler</string>
+    <string name="name">%1$s, %2$s</string>
+    <string name="id">id</string>
+    <string name="name_surname">Name Surname</string>
+    <string name="phone_number">Phone number</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отменить</string>
+    <string name="delete">Удалить</string>
+</resources>

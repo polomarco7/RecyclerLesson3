@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".AddItemFragment">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Введите id контакта"
+        android:layout_weight="0.1"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/firstNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:inputType="text"
+        android:hint="Введите имя контакта"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/lastNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:inputType="text"
+        android:hint="Введите фамилию контакта"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/phoneNumEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:inputType="phone"
+        android:hint="Введите номер телефона контакта"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Добавить контакт"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
