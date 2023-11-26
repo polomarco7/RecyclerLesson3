@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/material_dynamic_neutral90">
+    android:background="@color/grey">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/idTextView"
@@ -45,5 +45,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Изменить"/>
+        android:text="@string/change"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
